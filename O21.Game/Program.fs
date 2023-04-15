@@ -78,8 +78,8 @@ let main(args: string[]): int =
             Title = "O21"
             GameWidth = 600
             GameHeight = 400
-            ScreenWidth = 1200
-            ScreenHeight = 800
+            ScreenWidth = 600
+            ScreenHeight = 400
             IsFullscreen = false
             IsFixedTimeStep = false
         }

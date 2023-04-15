@@ -2,6 +2,7 @@ namespace O21.Game.Scenes
 
 open System.Numerics
 open O21.Game
+open Raylib_CsLo
 
 type MainMenuScene = {
     Content: GameContent

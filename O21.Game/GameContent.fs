@@ -3,6 +3,7 @@ namespace O21.Game
 open System
 open System.IO
 open Raylib_CsLo
+open Microsoft.FSharp.NativeInterop
 
 #nowarn "9"
 
@@ -19,5 +20,5 @@ type GameContent = {
         |]
         use ptr = fixed fontChars
         {
-            UiFont = Raylib.LoadFontEx(pathToResource "Inter-Regular.otf", 12, ptr, fontChars.Length)
+            UiFont = Raylib.LoadFontEx(pathToResource "CozetteVector.ttf", 13, ptr, fontChars.Length)
         }
